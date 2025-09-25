@@ -18,7 +18,7 @@ def test_imports():
         return False
     
     try:
-        from pinecone import Pinecone
+        import pinecone
         print("✅ Pinecone imported successfully")
     except ImportError as e:
         print(f"❌ Pinecone import failed: {e}")
